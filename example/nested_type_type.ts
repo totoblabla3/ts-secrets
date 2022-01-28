@@ -62,4 +62,4 @@ interface JetEngine {
 const checkStateReadiness = (value: JetEngine["state"]) => value === "ready";
 
 // Теперь функция хорошо типизируется
-console.log(checkStateReadiness("Bullshit"));
+// console.log(checkStateReadiness("Bullshit"));
